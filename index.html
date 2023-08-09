@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        alert("olá ser humano!")
+    </script>
+    <form name="contact">
+        <h1>contact</h1>
+        
+        <label for="nome">Nome</label>
+        <input type="text" id="nomeid"
+         placeholder="insira seu nome" name="nome"/>
+        
+        <label for="fone">Telefone</label>
+        <input type="tel" id="foneid"
+        placeholder="(XX)xxxx-xxxx" name="fone"/>
+        
+        <label for="email">E-mail</label>
+        <input type="email" id="emailid"
+        placeholder="Insira seu e-mail" required="required" name="email"/>
+        
+        <label for="cep">CEP</label>
+        <input type="cep" id="cepid"
+        placeholder="Insira seu CEP" required="required" name="cep"/>
+
+        <label for="logradouro">Logradouro</label>
+        <input type="logradouro" id="logradouroid"
+        placeholder="Insira seu Logradouro" required="required" name="logradouro"/>
+
+        <label for="cidade">Cidade</label>
+        <input type="cidade" id="cidadeid"
+        placeholder="Insira sua Cidade" required="required" name="Cidade"/>
+
+        <label for="uf">UF</label>
+        <input type="uf" id="ufid"
+        placeholder="Insira seu UF" required="required" name="UF"/>
+
+
+
+        <textarea placeholder="Insert your comments"></textarea>
+
+        <input type="submit" class="enviar" onclick="Enviar();" value="Enviar"/>
+
+    </form>
+
+    <script type="text/javascript" src="forms.js"></script>
+
+</body>
+</html>
